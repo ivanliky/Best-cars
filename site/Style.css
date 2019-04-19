@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+Body {	
+	margin:0;
+	padding:0;
+	background:#cccccc;	
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	font-size:14px;
+	
+}
+
+
+p {
+	margin:0 0 1em 0;
+	
+}
+
+a:link, a:visited  {
+	color:#880103;
+	text-decoration:none;
+	}
+	
+		
+a:hover {
+	color: #880103;
+	text-decoration:underline;
+	}
+	
+a:active {
+	color:#880103;
+	}
+
+
+
+
+#Wrapper {
+	width:960px;	
+	background:white;
+	margin:30px auto;	
+	padding:15px;
+}
+
+header {
+	
+	padding:10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: #6CAFE7;
+}
+
+#Logo {
+	float:left;	
+	}
+	
+#Slogan {
+	float:right;
+	color:#FFFFFF;
+	font-size:18px;
+	font-style:italic;
+	margin-top:50px
+	}
+
+#Nav {
+	height:40px;
+	background:grey;
+	margin-bottom:15px;
+	padding:0 20px;
+}
+
+#Nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+	
+#Nav ul li {
+	float:left;	
+	}
+	
+#Nav ul li a{
+	padding:10px 20px;
+	height:20px;
+	display:block;
+}
+
+#Nav ul li a:link, 
+#Nav ul li a:visited {
+	color:#FFFFFF;	
+	text-decoration:none;
+	
+}
+
+#Nav ul li a:hover {
+	background:#333333;
+	color: #880103;
+	text-decoration:none;
+}
+
+#Nav ul li a:active {
+	background:#333333;
+}
+
+.social {
+	float:right;
+	height:30px;
+	padding:5px 0;
+	font-size:20px;		
+}
+
+.social a:link, a:visited  {
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+	
+		
+.social a:hover {
+	color: #6CAFE7;
+	text-decoration:underline;
+	}
+	
+.social a:active {
+	color:#880103;
+	}
+
+#Main {
+	width: 680px;
+	float: left;
+	background-color: #EFE3E5;
+	padding:10px;
+	text-align:justify;
+}
+
+#Sidebar {
+	width: 250px;
+	float: left;
+	background-color: #BBB0B0;
+	padding:5px;
+	text-align:justify;
+}
+
+#Sidebar h2 {
+	color: #FFFFFF;
+	background-color: grey;
+	padding:5px;
+	}
+	
+	
+#Footer {
+	
+	background:#333333;
+	clear:both;	
+	padding:10px;
+	text-align:center;
+	color:white;
+}
+
+#Footer p {
+	margin:0;
+	
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1260px) {
+		#Wrapper{
+			width:980px;
+			}
+		#Main {
+			width:600px;
+		}
+		#Sidebar {
+			width:380px;
+			}
+	
+	}
+	
+	@media screen and (min-width: 768px) and (max-width: 1023px) {
+		#Wrapper{
+			width:740px;
+			}
+		#Main {
+			width:450px;
+		}
+		#Sidebar {
+			width:290px;
+			}
+	}
+	
+	@media screen and (max-width: 767px) {
+		#Wrapper{
+			width:80%;
+			}
+		#Main {
+			float:none;
+			width:auto;
+		}
+		#Sidebar {
+			float:none;
+			width:auto;
+			}
+	}
+	
+.row {
+	display:flex;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}

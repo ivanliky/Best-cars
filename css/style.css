@@ -1,0 +1,84 @@
+
+Body {	
+	margin:0;
+	padding:0;
+	background-image: url("images/logo.jpg");
+}
+
+
+label{
+	font-size:25px;
+}
+
+
+#wrapper {
+	width:1000px;
+	background-image: url("images/background.jpg");
+	margin:0px auto;
+	min-height:600px;
+	margin-top:150px;
+	border: 1px solid #333;
+	border-radius:10px;
+}
+
+#form {
+	width:300px;
+	margin:0px auto;
+	margin-top:50px;
+	color:#FFF;	
+}
+
+a {
+	color:#FFF;
+	text-decoration: none;
+}
+
+#error {
+	font-size: 30px;
+	color: yellow;
+}
+
+.login {
+	margin-top:150px;
+}
+
+.btn, .submitbtn{
+  width: 120px;
+   background: #6d7880;
+  background-image: -webkit-linear-gradient(top, #6d7880, #2e373d);
+  background-image: -moz-linear-gradient(top, #6d7880, #2e373d);
+  background-image: -ms-linear-gradient(top, #6d7880, #2e373d);
+  background-image: -o-linear-gradient(top, #6d7880, #2e373d);
+  background-image: linear-gradient(to bottom, #6d7880, #2e373d);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.subm{ width: 300px; height: 20px; border: 1px solid #999999; padding: 5px; }
+
+#dd {
+	display:inline;
+	font-size:18px;
+}
+
